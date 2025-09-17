@@ -1,90 +1,92 @@
-# Project About:
+# Valut Technical Screening Questionnaire
 
-Create an automation framework in Java that compares 2 csv files and identifies &amp; reports the
-differences between the 2 files if applicable. If the two csv files are identical, it should report that the
-files are identical.
-Make sure the differences are clearly identified so results can be easily triaged.
-We would like to see the different csv files you would create to validate that your code covers all
-different scenarios or test data. Please include a README file with instruction on how to run your code
-(Screenshots would help)
+This Java-based automation framework compares two CSV files and identifies and reports any differences between them. If the files are identical, it reports that as well. The goal is to facilitate easy triage of differences for validation and testing purposes.
 
 ---
 
-## Getting Started
+## Prerequisites
 
-### Prerequisites
-
-- Java Development Kit (JDK) installed (version X or above)
-- An IDE like [Eclipse](https://www.eclipse.org/downloads/) or [IntelliJ IDEA](https://www.jetbrains.com/idea/download/)
+- **Java Development Kit (JDK)**: Version 8 or higher
+- **Integrated Development Environment (IDE)**: Eclipse, IntelliJ IDEA, or any Java-supporting IDE
+- **Git**: For cloning the repository
 
 ---
-
-### How to Clone a GitHub Project
-* Clone via Command Line (Terminal)
-
-Open your terminal or command prompt.
-
-Navigate to the folder where you want to save the project:
-
-For ex: cd path/to/your/desired/folder
-
-
-Run the git clone command with your repo URL:
-
- git clone <the project URL from Git repo>
-
-
-This will download the project folder inside your current directory.
 
 ## How to Clone the Project
 
-1. Open your IDE.
+### Option 1: Clone via Command Line
 
-2. Choose the option to **Clone a Git repository** (this may be under File > New > Project from Version Control, or directly in the welcome screen):
+1. Open your terminal or command prompt.
+2. Navigate to the directory where you want to store the project:
+   ```bash
+   cd path/to/your/desired/folder
+Clone the repository:
 
-   - **Repository URL:**  
-     `https://github.com/your-username/your-repo.git`
+bash
+Copy code
+git clone https://github.com/vrazhagunila/valut-Technical-Screenin-Questionnaire.git
+Navigate into the project directory:
 
-3. Select a local directory where you want to save the project.
+bash
+Copy code
+cd valut-Technical-Screenin-Questionnaire
+Option 2: Clone Using Git GUI
+Open Git GUI.
 
-4. Finish the cloning process — your IDE will download the project files.
+Select Clone Existing Repository.
 
----
+Enter the repository URL:
 
-## How to Run the Java Project
+arduino
+Copy code
+https://github.com/vrazhagunila/valut-Technical-Screenin-Questionnaire.git
+Choose a local directory to clone the project into.
 
-### In Eclipse:
+Click Clone.
 
-1. After cloning and importing the project:
+Option 3: Clone Using an IDE
+In Eclipse:
+Open Eclipse.
 
-   - If Eclipse doesn't automatically recognize it as a Java project, right-click the project → **Configure** → **Convert to Java Project** (if available).
+Go to File → Import.
 
-2. Make sure your Java files are inside the `src` folder.
+Select Git → Projects from Git and click Next.
 
-3. Right-click the main Java file containing the `main` method (e.g., `Main.java`) → **Run As** → **Java Application**.
+Choose Clone URI and click Next.
 
----
+Enter the repository URI:
 
-### In IntelliJ IDEA:
+arduino
+Copy code
+https://github.com/vrazhagunila/valut-Technical-Screenin-Questionnaire.git
+Enter your GitHub credentials if prompted.
 
-1. Open IntelliJ IDEA and choose **Open**.
+Select the branch to clone (usually main or master).
 
-2. Navigate to the cloned project directory and select it.
+Choose the local directory to clone into.
 
-3. IntelliJ should automatically detect it as a Java project.
+Click Finish.
 
-4. Locate the Java file with the `main` method, right-click it → **Run 'Main.main()'**.
+In IntelliJ IDEA:
+Open IntelliJ IDEA.
 
----
+Click Get from Version Control on the welcome screen.
 
-## Additional Notes
+Paste the repository URL:
 
-- Ensure your JDK is correctly configured in the IDE.
+arduino
+Copy code
+https://github.com/vrazhagunila/valut-Technical-Screenin-Questionnaire.git
+Choose the directory to save the project.
 
-- If your project uses any external libraries, add them to your build path accordingly.
+Click Clone.
 
----
+How to Run the Java Application
+In Eclipse:
+After cloning and importing the project:
 
-Feel free to customize this with your project name, main class filename, and repo URL!
+If Eclipse doesn't automatically recognize it as a Java project, right-click the project → Configure → Convert to Java Project.
 
-If you want, I can generate a customized README with your exact repo name and main Java file name — just tell me!
+Ensure your Java files are inside the src folder.
+
+Right-click the main Java file containing the main method (e.g., CSVComparator.java) → Run As → Java Application.
