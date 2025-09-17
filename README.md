@@ -14,74 +14,44 @@ This Java-based automation framework compares two CSV files and identifies and r
 
 ## How to Clone the Project
 
-### Option 1: Clone via Command Line
+### How to Clone This Project Using Command Prompt / Terminal
+1.	Install Git (if you haven’t already)
+   o	Download and install Git from https://git-scm.com/
+   o	Make sure you can run Git commands. In Windows, open “Command Prompt” or “Git Bash” and type:
+   o	git --version
+2.	Get the Repository URL
+   o	Go to your remote repository (on GitHub, GitLab, etc.).
+   o	Click the Code or Clone button.
+   o	Copy the HTTPS link (or SSH link if you have SSH keys set up).
+   o	Example: https://github.com/yourusername/your-repo.git (GitHub Docs)
+3.	Open Command Prompt / Terminal
+   o	On Windows: Press Win + R, type cmd (or open “Git Bash”).
+   o	On macOS: Use Terminal.
+   o	On Linux: Use Terminal.
+   4.	Navigate to the Folder Where You Want the Project
+   o	Use the cd command to change directories.
+   o	For example:
+   o	cd C:\Users\YourName\Documents\Projects
+   (Or your desired path.)
+5.	Run the Clone Command
+   o	Use the command:
+   o	git clone <repository-url>
+   o	Replace <repository-url> with the URL you copied.
+   o	Example:
+   o	git clone https://github.com/yourusername/your-repo.git
+6.	Change Into the Cloned Directory
+   o	After cloning, a new folder will be created with the repo name.
+   o	Move into that folder:
+   o	cd your-repo
+7.	Check That the Clone Worked
+   o	Use dir (Windows) or ls (macOS/Linux) to list files.
+   o	You should see your project files.
+   o	Also check remote connections:
+   o	git remote -v
+   o	It should show something like origin https://github.com/yourusername/your-repo.git (fetch) and (push)
 
-1. Open your terminal or command prompt.
-2. Navigate to the directory where you want to store the project:
-   ```bash
-   cd path/to/your/desired/folder
-Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/vrazhagunila/valut-Technical-Screenin-Questionnaire.git
-Navigate into the project directory:
-
-bash
-Copy code
-cd valut-Technical-Screenin-Questionnaire
-Option 2: Clone Using Git GUI
-Open Git GUI.
-
-Select Clone Existing Repository.
-
-Enter the repository URL:
-
-arduino
-Copy code
-https://github.com/vrazhagunila/valut-Technical-Screenin-Questionnaire.git
-Choose a local directory to clone the project into.
-
-Click Clone.
-
-Option 3: Clone Using an IDE
-In Eclipse:
-Open Eclipse.
-
-Go to File → Import.
-
-Select Git → Projects from Git and click Next.
-
-Choose Clone URI and click Next.
-
-Enter the repository URI:
-
-arduino
-Copy code
-https://github.com/vrazhagunila/valut-Technical-Screenin-Questionnaire.git
-Enter your GitHub credentials if prompted.
-
-Select the branch to clone (usually main or master).
-
-Choose the local directory to clone into.
-
-Click Finish.
-
-In IntelliJ IDEA:
-Open IntelliJ IDEA.
-
-Click Get from Version Control on the welcome screen.
-
-Paste the repository URL:
-
-arduino
-Copy code
-https://github.com/vrazhagunila/valut-Technical-Screenin-Questionnaire.git
-Choose the directory to save the project.
-
-Click Clone.
-
-How to Run the Java Application
+### How  to Run the Java Application
 In Eclipse:
 After cloning and importing the project:
 
